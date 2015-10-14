@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta charset = "utf-8"> 
+		<title>El Luchador Con Hambre</title> 
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<link rel="shortcut icon" href="Lucha_Icon.gif" type="image/gif">
+		<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet' type='text/css'>
+	</head> 
+	<body> 
+	<div id="headimage">
+		<img src="food2.jpg" alt="header image">
+	</div>
+	<header>
+		<a href="home.html">HOME</a><a href="menus.html">MENUS</a><a href="reviews.html">REVIEWS</a><a href="rate.html">RATE</a><a href="contact.html">CONTACT</a>
+	</header>
+		<div id = "maincontent">
+			<h1>Rate Your Experience!</h1>
+			<br/><br/><br/><br/>
+			<div id="rate">
+				<form method="get">
+					<p>
+						<label>Leave a comment!*:</label>
+						<textarea name="Comment" cols="30" rows="4" placeholder="Tell us about your visit!" required></textarea>
+					</p>
+					<p>
+						<label>Rate your experience!*:</label>
+						<input type="range" min="0" max="5" name="clientRating" value="0"/>
+					</p>
+					<p>
+						<label>Month you visited*:</label>
+						<select name="month">
+							<option>January</option>
+							<option>February</option>
+							<option>March</option>
+							<option>April</option>
+							<option>May</option>
+							<option>June</option>
+							<option>July</option>
+							<option>August</option>
+							<option>September</option>
+							<option>October</option>
+							<option>November</option>
+							<option>December</option>
+						</select>
+					</p>
+					<p>
+						<label>Type of visit*:</label>
+						<select name="visitType">
+							<option>Family</option>
+							<option>Couples Romantic</option>
+							<option>Friends</option>
+							<option>Business</option>
+							<option>Solo</option>
+						</select>
+					</p>
+					<p>
+						<label>Rate the food!*:</label>
+						<input type="range" min="0" max="5" name="foodRating" value="0"/>
+					</p>
+					<p>
+						<label>Rate the value!*:</label>
+						<input type="range" min="0" max="5" name="valueRating" value="0"/>
+					</p>
+					<p>
+						<label>Rate the service!*:</label>
+						<input type="range" min="0" max="5" name="serviceRating" value="0"/>
+					</p>
+					<p>
+						<input type="submit"/>
+						<input type="reset"/>
+					</p>
+				</form>
+			</div>
+		</div>
+	
+	</body> 
+</html> 
