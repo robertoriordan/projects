@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Wind Convertor</string>
+    <string name="action_settings">Settings</string>
+    <string name="enterMessage">ENTER WIND SPEED:</string>
+    <string name="convertButton">CONVERT</string>
+    <string name="inputType">Input Type:</string>
+    <string name="outputType">Output Type:</string>
+    <string name="output">OUTPUT:</string>
+    <string name="outputValue" translatable="false">0</string>
+    <string name="inputDefault" translatable="false">0</string>
+    <string name="inputHint">Enter a value</string>
+    <string name="warning">Invalid Input!</string>
+    <string name="kmH">Kilometers/Hour</string>
+    <string name="knots">Knots</string>
+    <string name="beau" translatable="false">Beaufort</string>
+    <string-array name="inputTypes">
+        <item>@string/kmH</item>
+        <item>@string/knots</item>
+        <item>@string/beau</item>
+    </string-array>
+    <string-array name="outputTypes">
+        <item>@string/kmH</item>
+        <item>@string/knots</item>
+        <item>@string/beau</item>
+    </string-array>
+    <string name="title_activity_2" translatable="false">Activity2</string>
+    <string name="levelTitle">Level</string>
+    <string name="levelNum" translatable="false">0</string>
+    <string name="levelDesc">Calm</string>
+    <string name="beaufortButton">View Beaufort Info</string>
+    <string name="backButton">BACK TO MENU</string>
+    <string name="beau0">Calm</string>
+    <string name="beau1">Light Air</string>
+    <string name="beau2">Light Breeze</string>
+    <string name="beau3">Gentle Breeze</string>
+    <string name="beau4">Moderate Breeze</string>
+    <string name="beau5">Fresh Breeze</string>
+    <string name="beau6">Strong Breeze</string>
+    <string name="beau7">High wind,\nmoderate gale,\nnear gale</string>
+    <string name="beau8">Gale,\nfresh gale</string>
+    <string name="beau9">Strong/severe gale</string>
+    <string name="beau10">Storm,\nwhole gale</string>
+    <string name="beau11">Violent storm</string>
+    <string name="beau12">Hurricane force</string>
+    <string name="title_activity_3" translatable="false">Activity3</string>
+    <string name="ioButton">INPUT/OUTPUT SETTINGS</string>
+    <string name="apply">APPLY</string>
+    <string name="dialog_message">A valid Beaufort output is required.\nDo you wish to set the
+        current Beaufort output value to 0?</string>
+    <string name="dialog_title">WARNING!</string>
+    <string name="dialog_confirm">OK</string>
+    <string name="dialog_decline">NO</string>
+    <string name="dialog_custom">CUSTOMIZE...</string>
+    <string name="setting1">Display Beaufort As Title</string>
+    <string name="notify_title">NEW CALL WAITING</string>
+    <string name="notify_message">Tap to call!</string>
+</resources>

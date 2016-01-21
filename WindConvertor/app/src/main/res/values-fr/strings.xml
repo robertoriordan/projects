@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vent Convertisseur</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="apply">APPLIQUER</string>
+    <string name="backButton">RETOUR AU MENU</string>
+    <string name="beau0">Calme</string>
+    <string name="beau1">Air Léger</string>
+    <string name="beau10">Orage,\ncoup de vent ensemble</string>
+    <string name="beau11">Orage violent</string>
+    <string name="beau12">Force d\'un ouragan</string>
+    <string name="beau2">Légère Brise</string>
+    <string name="beau3">Petite Brise</string>
+    <string name="beau4">Jolie Brise</string>
+    <string name="beau5">Brise Fraîche</string>
+    <string name="beau6">Forte Brise</string>
+    <string name="beau7">Vent fort,\ncoup de vent modérée,\ngrand frais</string>
+    <string name="beau8">Coup de vent,\ncoup de vent frais</string>
+    <string name="beau9">Fort/sévère coup de vent</string>
+    <string name="beaufortButton">Voir L\'info de Beaufort</string>
+    <string name="convertButton">COVERTIR</string>
+    <string name="enterMessage">ENTRER LA VITESSE DU VENT</string>
+    <string name="inputDefault"></string>
+    <string name="inputHint">Entrez une valeur </string>
+    <string name="inputType">Type D\'entrée:</string>
+    <string name="ioButton">PARAMÈTRES D\'ENTRÉE/DE SORTIE</string>
+    <string name="kmH">Kilomètres/Heure</string>
+    <string name="knots">Nœuds</string>
+    <string name="levelDesc">Calme</string>
+    <string name="levelNum"></string>
+    <string name="levelTitle">Niveau</string>
+    <string name="output">SORTIE:</string>
+    <string name="outputType">Type de Sortie:</string>
+    <string name="warning">Entrée Invalide!</string>
+    <string name="dialog_confirm">D\'ACCORD</string>
+    <string name="dialog_custom">PERSONNALISER...</string>
+    <string name="dialog_decline">NON</string>
+    <string name="dialog_message">Une sortie est valide nécessite Beaufort.\nVoulez-vous en haut de régler la sortie de Beaufort actuelle à 0?</string>
+    <string name="dialog_title">ATTENTION!</string>
+    <string name="notify_message">Appuyez sur pour appeler!</string>
+    <string name="notify_title">NOUVEL APPEL EST EN ATTENTE</string>
+    <string name="setting1">Afficher Beaufort Titre</string>
+</resources>
